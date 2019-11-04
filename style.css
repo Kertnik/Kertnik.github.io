@@ -1,26 +1,4 @@
-#Name
-{
-    text-align: center;
-    font-family:Calibri;
-  font-size: 18pt;;
-}
-#First
-{
-    font-family: Segoe UI;
-}
-#Second
-{
-   font-family:Calibri;
-   font-style: italic;
-}
-
 h1
 {
-   text-align: center;
-}
-
-#Arial
-{
-     font-family: Arial;
-     font-size: 12pt;
+    text-align: center;
 }
