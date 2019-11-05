@@ -12,6 +12,13 @@
 {
    font-family:Calibri;
    font-style: italic;
+
+}
+img
+{
+   float: right;
+   width: 50%;
+   margin-right: 20%;
 }
 
 h1
