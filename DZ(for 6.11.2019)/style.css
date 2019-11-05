@@ -2,7 +2,9 @@
 {
     text-align: center;
     font-family:Calibri;
-  font-size: 18pt;;
+  font-size: 18pt;
+  color: rgb(251, 255, 22);
+  
 }
 #First
 {
@@ -32,3 +34,14 @@ h1
      font-family: Arial;
      font-size: 12pt;
 }
+
+
+body
+{
+   background-color:snow ;
+}
+h1
+{
+  color: crimson;
+}
+
