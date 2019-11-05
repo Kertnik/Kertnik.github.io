@@ -3,6 +3,7 @@
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 25pt;
+  color: black;
   font-style: oblique;
   
 }
@@ -47,3 +48,7 @@ h1
   color: crimson;
 }
 
+.green
+{
+   color:green;
+}
