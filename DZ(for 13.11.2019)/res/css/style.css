@@ -1,13 +1,17 @@
 *{
-    background-image: url("../img/back.png");
+background-image: url("../img/back.png");
    background-repeat: no-repeat;
    background-size:cover;
    background-attachment: fixed;
    
 }
-img{
-    margin: 100px;
-    
+
+
+
+.first img{
+    float: left;
+    margin: 75px;
+    margin: 100px,75px,50px,75px;
 }
  body{
      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -17,34 +21,30 @@ img{
 
 
 hr{
+    margin-top:50px ;
  border: 10px solid; 
 }
 
-.second img{
-    margin: 30px 0px 0px 50px;
-    width: 550px;
+.column{
+    margin-left:100px ;
+    float: left;
+    text-align: center;
+    max-width: 550px;
+    height: 760px;
+}
+
+.column img{
+    margin-top: 30px;
+   max-width: 550px;
     border: 5px solid;
     border-radius: 15px;
 }
-#pic2{
-    width: auto;
-    height: 310px;
-    margin-left: 110px;
-}
 
-.information{
-    margin: 50px 100px 50px 120px;
-    max-width: 400px;
-    text-align:center;
-    font-size: 16px;
-    float: left;
-}
-
-#text2{
-    margin-left: 145px;
-}
- .third img{
+.third img{
+    max-height:850px ;
     float: right;
-     margin:20px 30px 0px 250px ;
-    width: 700px;
- }
+    margin:0px 50px 0px 50px;
+}
+
+
+
