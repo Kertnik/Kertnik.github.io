@@ -1,5 +1,11 @@
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@font-face{
+font-family : 'Open Sans';
+font-style : normal;
+font-weight : 400;
+font-display : swap;
+src : local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
 
 *{
     margin: 0px;
