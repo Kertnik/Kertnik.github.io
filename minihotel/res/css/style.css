@@ -1,11 +1,11 @@
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap') font;
+
 *{
     margin: 0px;
     padding: 0px;
     font-size: 14px
 }
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap') font;
 
 .menu-line{  
 height: 80px;
