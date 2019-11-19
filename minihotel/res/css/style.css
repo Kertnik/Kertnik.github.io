@@ -1,0 +1,62 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.menu-line{  
+height: 80px;
+background-color:#242323 ;
+}
+
+#page{
+margin:auto;
+width: 980px;
+}
+
+.menu{
+margin: auto;
+width: 980px;
+}
+
+#button{
+font-family:Arial, Helvetica, sans-serif ;
+text-decoration: none;  
+border: solid 1px white;
+background-color: #242323; 
+color: white;
+padding: 10px 15px 10px 15px;
+margin-right:25px ;
+}
+.menu ul li{
+margin-top:20px;
+margin-right: 40px;
+display:inline-block ;
+}
+.menu ul li a{
+font-family: Helvetica, sans-serif;
+text-decoration: none;
+color:white;
+}
+.header
+{
+text-align: center;
+margin-bottom: 90px;
+}
+.header h1{
+  margin-top:80px; 
+  letter-spacing: 0.1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.header h5{
+font-weight: normal;
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+letter-spacing: 0.05rem;
+}
+
