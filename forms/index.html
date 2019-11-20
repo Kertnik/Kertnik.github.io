@@ -6,10 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Forms</title>
+    <script>
+        function foo() {
+            alert('hello world')
+        }
+    </script>
 </head>
 
 <body>
-
+    <form action="google.com/search" method="GET">
+        <label>
+            Enter smth
+            <input type="text">
+        </label>
+        <br>
+        <input type="button" value="type text.." onclick="foo()">
+    </form>
 </body>
 
 </html>
