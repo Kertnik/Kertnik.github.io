@@ -19,16 +19,14 @@ margin:auto;
 width: 980px;
 }
 
-#fakeButton{
-border: solid 1px white;
-padding: 10px;
+
+
+.page ul li{
+  margin: 30px 0px 0px 50px;
+display:inline-block ;
 }
 .page ul li:first-child{
-  margin-left: 25px;
-}
-.page ul li{
-  margin: 30px 50px 0px 0px;
-display:inline-block ;
+  margin-left: 30px;
 }
 .page ul li a{
 font-family: Helvetica, sans-serif;
@@ -37,6 +35,15 @@ color:#F5F5F5;
 }
 .page ul li a:hover{
   color: #A0A09F;
+}
+
+.page ul li:last-child{
+  margin-left: 30px;
+}
+
+#fakeButton{
+border: solid 1px white;
+padding: 10px;
 }
 #fakeButton:hover{
 color: black;
