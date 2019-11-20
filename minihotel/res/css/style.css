@@ -45,7 +45,7 @@ padding: 10px;
 }
 #fakeButton:hover{
 color: black;
-transition: 250ms;
+transition: 750ms;
 background-color:white ;
 }
 .header
