@@ -1,46 +1,40 @@
-
 @font-face{
 font-family : 'Open Sans';
 font-style : normal;
-font-weight : 400;
+font-weight : normal;
 font-display : swap;
 src : local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
 }
-
 *{
     margin: 0px;
     padding: 0px;
     font-size: 14px
 }
-
 .menu-line{  
 height: 80px;
 background-color:#242323 ;
 }
-#page{
+.page{
 margin:auto;
 width: 980px;
 }
-.menu{
-margin: auto;
-width: 980px;
-}
+
 
 #button{
 font-family:Arial, Helvetica, sans-serif ;
 text-decoration: none;  
+margin-top:30px;
 border: solid 1px white;
 background-color: #242323; 
 color: white;
 padding: 10px 15px 10px 15px;
-margin-right:55px ;
 }
-.menu ul li{
-margin-top:20px;
-margin-right: 40px;
+.page ul li{
+  margin: 30px 40px 0px 0px;
+
 display:inline-block ;
 }
-.menu ul li a{
+.page ul li a{
 font-family: Helvetica, sans-serif;
 text-decoration: none;
 color:rgb(245,245,245);
@@ -58,7 +52,6 @@ margin-bottom: 90px;
   font-size: 40px;
   margin-bottom: 15px;
 }
-
 .header h5{
 font-weight: normal;
 font-family: 'Open Sans', sans-serif;
