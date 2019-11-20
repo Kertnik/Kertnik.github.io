@@ -19,26 +19,30 @@ margin:auto;
 width: 980px;
 }
 
-
-#button{
-font-family:Helvetica, sans-serif ;
-text-decoration: none;  
-margin-top:30px;
+#fakeButton{
 border: solid 1px white;
-background-color: #242323; 
-color: white;
-padding: 10px 15px 10px 15px;
+padding: 10px;
+}
+.page ul li:first-child{
+  margin-left: 25px;
 }
 .page ul li{
-  margin: 30px 40px 0px 0px;
+  margin: 30px 50px 0px 0px;
 display:inline-block ;
 }
 .page ul li a{
 font-family: Helvetica, sans-serif;
 text-decoration: none;
-color:rgb(245,245,245);
+color:#F5F5F5;
 }
-
+.page ul li a:hover{
+  color: #A0A09F;
+}
+#fakeButton:hover{
+color: black;
+transition: 250ms;
+background-color:white ;
+}
 .header
 {
 text-align: center;
