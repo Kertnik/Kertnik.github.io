@@ -14,21 +14,14 @@
 </head>
 
 <body>
-    <form action="google.com/search?" method="GET">
+    <form action="#" method="GET">
         <label for="id1">
             Enter smth
 
         </label>
         <input type="text" id="id1">
         <br>
-        <label>
-            HTML
-            <input type="checkbox" name="" id="">
-        </label>
-        <label>
-            CSS
-            <input type="checkbox" name="" id="">
-        </label>
+
         <br>
         <p>
 
@@ -47,10 +40,75 @@
         <p>
             <input type="file" name="" id="" multiple>
         </p>
-        <input type="submit" value="Отправиты">
+
         <br>
-        <input type="date" name="date" id="daten">
+        <p> <input type="date" name="date" id="daten"></p>
+        <p><input type="image" src="../DZ(for 13.11.2019)/res/img/icon.ico" alt=""></p>
+        <label for="">
+            <button type="submit">123</button>
+            <input type="password" name="pass" id="">
+        </label>
+        <input type="reset" value="clear">
+        <br>
         <input type="button" value="type text.." onclick="alarm()">
+        <p><input type="color" name="color" id="">
+        </p>
+        <p>
+            <input type="email" name="email" id="" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" size="30">
+        </p>
+        <p>
+            <input type="text" name="required" required id="">
+        </p>
+        <p>
+            <input type="number" name="num" id="">
+            <input type="range" name="numb" id="">
+        </p>
+        <p>
+            <input type="search" name="search" id="">
+        </p>
+        <textarea name="textarea" id="" cols="100" rows="10"></textarea>
+        <p>
+            <input type="submit" value="Отправиты">
+        </p>
+        <select name="selectiom" id="" required multiple>
+            <option value="-1">*</option>
+            <option value="1">Yellow</option>
+            <option value="2">Green</option>
+            <option value="3">Blue</option>
+            <option value="4">Black</option>
+            <option value="5">White</option>
+        </select>
+        <p>
+            <fieldset style="width: 250px;">
+                <legend>
+                    Язык
+                </legend>
+                <label>
+                    HTML
+                    <input type="checkbox" name="checkbox" id="">
+                </label>
+                <label>
+                    CSS
+                    <input type="checkbox" name="checkbox" id="">
+                </label>
+                <input type="submit" value="Отправить" style="margin:10px">
+            </fieldset>
+        </p>
+    </form>
+    <form action="google.com" method="get" style="width: 200px; margin-left: 45%;">
+        <fieldset>
+            <legend>Account</legend>
+            <label>
+                <h2>Login</h2>
+                <br>
+                <input type="text" name="" id="">
+            </label>
+            <label for="">
+                <h2>Password</h2>
+                <input type="password" name="" id="">
+            </label>
+            <button type="submit" style="margin:20px 50px 20px 50px;">Send</button>
+        </fieldset>
     </form>
 </body>
 
