@@ -43,5 +43,16 @@ margin:5px  30px 0px 0px;
 }
 
 .second{
-background-image: url(/DZ_for_30.11.2019/res/img/visa.png)
+background-image: url(../img/visa.png);
+border-radius: 5px;
+height: 300px;
+width: 550px;
+margin: auto;
+padding: 25px;
+color: white;
+}
+
+.second img{
+    width: 70px;
+    float: right;
 }
