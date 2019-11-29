@@ -30,12 +30,49 @@
         <!-- HEADER -->
         <div class="header">
             <h1>ТИХИЙ ДВОРИК</h1>
-            <h5>Мини-отель</h5>
+            <ul style="text-decoration: none;"></ul>
+            <h5>---Мини-отель---</h5>
         </div>
         <img src="./res/img/hotel.png" alt="" style="width: 980px;">
-
         <!-- MAIN CONTENT -->
+        <div class="book_form">
+            <form action="#" method="get">
+                <table>
+                    <tr style="margin: 10px;">
+                        <td><label for="book-day">Заезд</label></td>
+                        <td><label for="book-out">Выезд</label></td>
+                        <td><label for="adults">Взрослых</label></td>
+                        <td><label for="children">Детей</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="date" name="book-day" id="book-day" class="date"></td>
+                        <td><input type="date" name="book-out" id="book-out" class="date"> </td>
+                        <td><input type="number" name="adults" id="adults" min="1" value="1" class="count"></td>
+                        <td><input type="number" name="children" id="children" min="0" value="0" class="count"></td>
+                        <td style="background-color:black ; width: 180px; text-align: center; height: 30px;"><a href="#"
+                                style="text-decoration: none; color:white;width: 185px; ">Подобрать
+                                номер</a></td>
+                    </tr>
+                </table>
+
+
+            </form>
+            <div id="description">
+                <h4>МИНИ-ОТЕЛЬ</h4>
+                <p>Это текст. Нажмите один раз и выберите «Редактировать текст» или просто кликните дважды, чтобы
+                    добавить свой текст и
+                    настроить шрифт. Здесь вы можете рассказать посетителям подробнее о себе. Здесь будет удачно
+                    смотреться текст о вашей
+                    компании и услугах.</p>
+            </div>
+        </div>
         <!--FOOTER-->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="Footer">
             <p style="float: right;">
                 <a href="https://jigsaw.w3.org/css-validator/check/referer">
