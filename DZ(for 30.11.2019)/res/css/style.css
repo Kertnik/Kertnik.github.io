@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+}
+.first{
+    width: 370px;
+    background-color: #2d3b36;
+    height: 370px;
+    margin: auto;
+}
+
+.first .content{
+    position: absolute;
+    width: 330px;
+    height: 340px;
+    background-color:#161d1b;
+    margin:15px 0px 0px 20px;
+    border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.first .content form .input{
+
+    width: 255px;
+    margin: 15px 25px 0px 25px;
+    height: 45px;
+font-size: 14pt;
+background-color:#737776 ;
+color: white;
+padding-left:15px ;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border-radius: 5px;
+}
+
+.first .content button{
+width: 115px;
+height: 35px;
+background-color: #538380;
+color: white;
+border:solid black 1px;
+border-radius: 5px;
+float: right;
+margin:5px  30px 0px 0px;
+}
