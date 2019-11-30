@@ -13,7 +13,9 @@ h1{
 .first input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{
     color: white;
 }
-
+.second input::-webkit-input-placeholder{
+      color: rgba(77, 77, 77, 0.788);
+}
 .first .content{
     position: absolute;
     width: 330px;
