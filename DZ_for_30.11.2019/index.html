@@ -26,7 +26,28 @@
     </div>
     <h1>Second</h1>
     <div class="second">
-        <p><strong>Payment Details</strong></p>
+        <img src="./res/img/logo.png" alt="logo" style="float: right;">
+        <h2 style="margin-top: 10px;font-weight: 550;">Payment Details</h2>
+        <form action="#" method="get">
+            <div class="number">
+                <label for="Card">CARD NUMBER</label>
+                <br>
+                <input type="text" name="" id="card" pattern="[0-9]{13,16}" value="9876 8765 6543 5432">
+            </div>
+            <div class="option">
+                <div class="expiration">
+                    <label for="Month">EXPIRATION</label>
+                    <br>
+                    <input type="text" name="Month" id="Month" style="width: 190px;" value="December (12)">
+                    <input type="text" name="Year" id="Year" value="2014">
+                </div>
+                <div class="CVC">
+                    <label for="CVC">CVC CODE</label>
+                    <input type="text" name="CVC" id="CVC" value="174">
+                </div>
+            </div>
+            
+        </form>
     </div>
 </body>
 
