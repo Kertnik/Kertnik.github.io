@@ -1,0 +1,18 @@
+a{
+    display: block;
+     width: 100px;
+    height: 40px;
+    margin-top: 25px;
+margin-left:47% ;
+padding: 20px 0px 0px 60px;
+    text-decoration: none;
+    color: white;
+    border: 10px black;
+    background-color: black;
+    border-radius: 3px;
+}
+a:hover{
+    transition: 0.5s;
+    background-color:blue;
+    color:black;
+}
