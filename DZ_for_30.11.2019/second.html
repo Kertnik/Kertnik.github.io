@@ -1,17 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./res/css/style-second.css">
-
-    <title>Document</title>
+    <title>Make ukranian forms great again 3</title>
 </head>
 
 <body>
-<a href="./index.html">Back</a>
+    <div class="page">
+        <div class="left"></div>
+        <div class="right">
+            <form action="#" method="get">
+
+                <input type="checkbox" name="Orietation" id="Orietation">
+                <label for="Orietation">Vertical orietation</label>
+                <input type="checkbox" name="Disable" id="Disable" style="margin-left:50px;">
+                <label for=Disable>Disable alerts</label>
+            </form>
+        </div>
+        <div class="main">
+            <h1 style="background-color: inherit;">Forms: validation, styling & semantics</h1>
+            <form action="#" method="get">
+                <table>
+                    <tr>
+                        <td><label for="Name">Name</label></td>
+                        <td> <input type="text" name="Name" id="Name"></td>
+                    <tr>
+                        <td> <label for="Occupation">Occupation</label></td>
+                        <td><input type="text" name="Occupation" id="Occupation"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Email">Email</label></td>
+                        <td><input type="email" name="Email" id="Email"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Email_check">Confirm Email Adress</label>
+                        </td>
+                        <td> <input type="email" name="Email_check" id="Email_check">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Number">Number</label></td>
+                        <td><input type="number" name="Number" id="Number">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Date">Date</label></td>
+                        <td><input type="date" name="Datr" id="Date"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Password">Password</label></td>
+                        <td><input type="password" name="pass" id="Password"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Password_check">Repeat Password</label></td>
+                        <td><input type="password" name="pass_check" id="Password_check"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Telephone">Telephone</label></td>
+                        <td> <input type="text" name="Telephone" id="Telephone"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Selection">Drop Down Selection</label></td>
+                        <td><select name="select" id="Selection">
+                                <option value="+">--None--</option>
+                                <option value="-">Not none</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Url">Url</label></td>
+                        <td><input type="url" name="Url" id="Url" placeholder="http://www.website.com"></td>
+                    </tr>
+                    <tr style="width: auto;">
+                        <td><label for="Mult1">Multifield</label></td>
+                        <td><input type="text" name="Mult1" id="Mult1" class="Multifield">
+                            <input type="text" name="Mult2" id="Mult2" class="Multifield">
+                            <input type="text" name="Mult3" id="Mult3" class="Multifield">
+                            <input type="text" name="Mult4" id="Mult4" class="Multifield">
+                            <input type="text" name="Mult5" id="Mult5" class="Multifield">
+                            <input type="text" name="Mult6" id="Mult6" class="Multifield"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Message">Message</label></td>
+                        <td>
+                            <textarea name="" id="" cols="30" rows="2"></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <p>There is hidden "Required" form field below, notice it will notbe validated due to its lack of
+                visibility. The reason for this is that sometimes there is a section in a form that is not visible until
+                some action is taken, but you do not want to change all those fields "required" attributes on-the-fly,
+                so that is why.</p>
+            <button type="submit">Submit</button>
+        </div>
+
+    </div>
+
+    <a href="./index.html">Back</a>
+
 </body>
 
 </html>
