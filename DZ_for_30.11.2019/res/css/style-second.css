@@ -1,51 +1,64 @@
 html{
-    background-color: lightgray;
-}
-a{
-    display: block;
-     width: 100px;
-    height: 40px;
-    margin-top: 25px;
-margin-left:47% ;
-padding: 20px 0px 0px 60px;
-    text-decoration: none;
-    color: white;
-    border: 10px black;
-    background-color: black;
-    border-radius: 3px;
+background-color: lightgray;
+ 
 }
 
-a:hover{
-    transition: 0.5s;
-    background-color:lightblue;
-    color:black;
+h1,p,button{
+margin-left: 20px;
+}
+#last{
+display: block;
+width: 100px;
+height: 40px;
+margin-top: 25px;
+margin-left:47% ;
+padding: 20px 0px 0px 60px;
+text-decoration: none;
+color: white;
+border: 10px black;
+background-color: black;
+border-radius: 3px;
+}
+
+#last:hover{
+transition: 0.5s;
+background-color:lightblue;
+color:black;
 }
 
 .left{
-     background-color:white ;
-    height: 20px;
-    
-    width: 83%;
-    float: left;
-    border: 1px dashed black;
-    border-bottom: none;
+background-color:white ;
+height: 20px;    
+width: 83%;
+float: left;
+border: 1px dashed black;
+border-bottom: none;
 }
 .right{
-    margin: 0px 0px 0px 84%;
+margin-left:84%;
 }
 
 .main{
 font-family: Arial, Helvetica, sans-serif;
-    width: 95%;
-    background: white;
- padding-left: 5%;
-    border: 1px dashed black;
+background: white;
+border: 1px dashed black;
 }
+
 .main input
 {
-    width: 175px;
+width: 175px;
 }
 .main .Multifield{
-    width: 25px;
-    border-spacing: 10px;
+width: 25px;
+border-spacing: 10px;
+}
+.main form img{
+height: 15px;
+}
+
+.main button{
+height: 35px;
+width: 80px;
+font-size: 12pt;
+margin: 25px;
 }

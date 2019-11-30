@@ -22,19 +22,28 @@
             </form>
         </div>
         <div class="main">
-            <h1 style="background-color: inherit;">Forms: validation, styling & semantics</h1>
+            <h1>Forms: validation, styling & semantics</h1>
             <form action="#" method="get">
-                <table>
+                <table style="border-spacing: 20px 10px ;">
                     <tr>
                         <td><label for="Name">Name</label></td>
-                        <td> <input type="text" name="Name" id="Name"></td>
+                        <td> <input type="text" required name="Name" id="Name" placeholder="ex. John f. Kennedy"><a
+                                href="#" title="help"><img src="./res/img/question.png" alt="help"></a>
+
+                        </td>
+
+
+
                     <tr>
                         <td> <label for="Occupation">Occupation</label></td>
-                        <td><input type="text" name="Occupation" id="Occupation"></td>
+                        <td><input type="text" name="Occupation" id="Occupation"><a href="#" title="help"><img
+                                    src="./res/img/question.png" alt="help"></a><a
+                                style="color: lightgray;">(optional)</a></td>
                     </tr>
                     <tr>
                         <td><label for="Email">Email</label></td>
-                        <td><input type="email" name="Email" id="Email"></td>
+                        <td><input type="email" required name="Email" id="Email"
+                                pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"></td>
                     </tr>
                     <tr>
                         <td>
@@ -46,7 +55,8 @@
                     <tr>
                         <td>
                             <label for="Number">Number</label></td>
-                        <td><input type="number" name="Number" id="Number">
+                        <td><input type="number" name="Number" id="Number"><a href="#" title="help"><img
+                                    src="./res/img/question.png" alt="help"></a>
                         </td>
                     </tr>
                     <tr>
@@ -55,7 +65,8 @@
                     </tr>
                     <tr>
                         <td><label for="Password">Password</label></td>
-                        <td><input type="password" name="pass" id="Password"></td>
+                        <td><input type="password" name="pass" id="Password"><a href="#" title="help"><img
+                                    src="./res/img/question.png" alt="help"></a></td>
                     </tr>
                     <tr>
                         <td><label for="Password_check">Repeat Password</label></td>
@@ -63,14 +74,15 @@
                     </tr>
                     <tr>
                         <td><label for="Telephone">Telephone</label></td>
-                        <td> <input type="text" name="Telephone" id="Telephone"></td>
+                        <td> <input type="text" name="Telephone" id="Telephone"><a href="#" title="help"><img
+                                    src="./res/img/question.png" alt="help"></a></td>
                     </tr>
                     <tr>
                         <td><label for="Selection">Drop Down Selection</label></td>
                         <td><select name="select" id="Selection">
                                 <option value="+">--None--</option>
                                 <option value="-">Not none</option>
-                            </select></td>
+                            </select><a href="#" title="help"><img src="./res/img/question.png" alt="help"></a></td>
                     </tr>
                     <tr>
                         <td><label for="Url">Url</label></td>
@@ -83,7 +95,8 @@
                             <input type="text" name="Mult3" id="Mult3" class="Multifield">
                             <input type="text" name="Mult4" id="Mult4" class="Multifield">
                             <input type="text" name="Mult5" id="Mult5" class="Multifield">
-                            <input type="text" name="Mult6" id="Mult6" class="Multifield"></td>
+                            <input type="text" name="Mult6" id="Mult6" class="Multifield"><a href="#" title="help"><img
+                                    src="./res/img/question.png" alt="help"></a></td>
                     </tr>
                     <tr>
                         <td><label for="Message">Message</label></td>
@@ -92,17 +105,20 @@
                         </td>
                     </tr>
                 </table>
+
+                <p>There is hidden "Required" form field below, notice it will notbe validated due to its lack of
+                    visibility. The reason for this is that sometimes there is a section in a form that is not visible
+                    until
+                    some action is taken, but you do not want to change all those fields "required" attributes
+                    on-the-fly,
+                    so that is why.</p>
+                <button type="submit">Submit</button>
             </form>
-            <p>There is hidden "Required" form field below, notice it will notbe validated due to its lack of
-                visibility. The reason for this is that sometimes there is a section in a form that is not visible until
-                some action is taken, but you do not want to change all those fields "required" attributes on-the-fly,
-                so that is why.</p>
-            <button type="submit">Submit</button>
         </div>
 
     </div>
 
-    <a href="./index.html">Back</a>
+    <a href="./index.html" id="last">Back</a>
 
 </body>
 
