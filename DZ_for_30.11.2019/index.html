@@ -14,11 +14,11 @@
     <div class="first">
         <div class="content">
             <form action="#" method="get">
-                <input type="text" name="Name" value="What is your name?" class="input" style="margin-top:25px ;">
-                <input type="email" name="Email" value="What is your email?" class="input"
+                <input type="text" name="Name" placeholder="What is your name?" class="input" style="margin-top:25px ;">
+                <input type="email" name="Email" placeholder="What is your email?" class="input"
                     pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" size="30">
                 <textarea style="height: auto;" name="Message" id="Message" cols="30" rows="5"
-                    class="input">Please enter your message</textarea>
+                    placeholder="Please enter your message" class="input"></textarea>
 
                 <button type="submit">Send</button>
             </form>
@@ -32,25 +32,26 @@
             <div class="number">
                 <label for="card">CARD NUMBER</label>
                 <br>
-                <input type="text" name="card" id="card" pattern="[0-9]{13,16}" required value="9876 8765 6543 5432">
+                <input type="text" name="card" id="card" pattern="[0-9]{13,16}" required
+                    placeholder="9876 8765 6543 5432">
             </div>
             <div class="option">
                 <div class="expiration">
                     <label for="Month">EXPIRATION</label>
                     <br>
-                    <input type="text" name="Month" id="Month" style="width: 190px;" value="December (12) "
+                    <input type="text" name="Month" id="Month" style="width: 190px;" placeholder="December (12) "
                         pattern="[0-9]{2}">
-                    <input type="text" name="Year" id="Year" value="2014" pattern="[0-9]{2-4}">
+                    <input type="text" name="Year" id="Year" placeholder="2014" pattern="[0-9]{2-4}">
                 </div>
                 <div class="CVC">
                     <label for="CVC">CVC CODE</label>
-                    <input type="text" name="CVC" id="CVC" value="174">
+                    <input type="text" name="CVC" id="CVC" placeholder="174">
                 </div>
             </div>
 
         </form>
     </div>
-    <a href="./second.html">Next</a>
+    <a href="./second.html" id="Next">Next</a>
     <p>
         <a href="https://jigsaw.w3.org/css-validator/check/referer">
             <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
