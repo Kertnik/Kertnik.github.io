@@ -8,6 +8,31 @@ table, td,th
 }
 
 td{
-    padding: 10px;
+    padding: 0px;
+    width: 50px;
+height: 25px;
+}
 
+.aqua{
+    text-align: center;
+    vertical-align:middle;
+    background-color:aqua ;
+}
+
+.pink{
+    background-color:pink ;
+}
+
+.green
+{
+   background-color:green;
+}
+
+.center{
+text-align: center;    
+
+}
+
+.right{
+    text-align: right;
 }
