@@ -1,0 +1,43 @@
+table  td{
+    border: 1px solid black;
+  width: 100px;
+}
+
+table{
+     border-collapse: collapse; 
+}
+
+.purple{
+    background-color:purple ;
+    text-align: left;
+}
+
+.blue{
+    background-color: lightblue;
+    text-align: right;
+}
+
+.green{
+    background-color: greenyellow;
+    text-align: right;
+}
+
+.wheat{
+    background-color: wheat;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.yellow{
+    background-color: yellow;
+    text-align: left;
+}
+
+.vertical{
+   transform: rotate(-90deg);
+    background-color: none;
+    text-align: center;
+    vertical-align: center;
+    width: 10px;
+    height: 20px;
+}
