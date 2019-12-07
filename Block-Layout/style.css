@@ -1,0 +1,118 @@
+*{
+    /* height: 100px; */
+}
+.pic1 .class-1{
+    width: 400px;
+    border: 1px dashed blue;
+}
+
+.pic1 .class-2{
+    margin: 30px;
+ border: 1px dashed green;
+}
+
+.pic1 .class-3{
+    margin: 20px;
+    border: 1px solid red;
+    height: 70px;
+}
+.pic2{
+    margin-top: 50px;
+}
+.pic2 .class-1{
+    width: 400px;
+border: 1px solid red;
+}
+
+.pic2 .class-2{
+    border:1px solid green;
+    margin: 100px;
+    height: 300px;
+    margin-bottom: 200px;
+}
+.pic3{
+    margin-top: 30px;
+}
+.pic3 .class-1{
+    border: 1px dashed blue;
+    width: 200px;
+}
+
+.pic3  .class-2{
+    margin: 10px 100px 100px 10px;
+    border: 1px solid yellow;
+    height: 50px;
+}
+.pic4{
+    margin-top:30px ;
+}
+.pic4 .class-1{
+    width: 400px;
+border: 1px solid red;
+}
+
+.pic4 .class-2{
+    border:1px solid green;
+    margin: 50px 100px;
+    height:75px;
+   
+}
+.pic5{
+    margin-top:30px ;
+}
+
+.pic5 .class-1{
+    margin-top: 30px;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+
+}
+
+.pic5 .class-2{
+    margin-top: 30px;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    border:25px solid black;
+}
+
+.pic5 .class-3{
+    margin-top: 30px;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    border:25px solid black;
+    box-sizing: border-box;
+}
+
+.pic6{
+    margin-top: 30px;
+}
+.pic6 .sp-1{
+   
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    background-color:aqua ;
+    border: 5px solid black;
+}
+
+.pic6 .sp-2{
+    display: block;
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    background-color:aqua ;
+    border: 5px solid black;
+}
+.pic6 .sp-3{
+  display: inline-block;
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    background-color:aqua ;
+    border: 5px solid black;  
+}
