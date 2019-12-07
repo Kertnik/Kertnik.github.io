@@ -1,43 +1,73 @@
-table  td{
+.first   td{
     border: 1px solid black;
   width: 100px;
+ 
 }
-
+td{
+     padding: 0px 10px 0px 10px;
+}
 table{
      border-collapse: collapse; 
+
 }
 
 .purple{
-    background-color:purple ;
+    background-color:rgb(219, 94, 171) ;
     text-align: left;
+      font-weight: 700;
+
+}
+table, tr,td{
+height: 50px !important;
+}
+.bold{
+    font-weight: bold;
+}
+.unbold{
+    font-weight: 400;
+}
+.vertical{
+  
+  text-align: center;
+font-weight: 600;
+  transform: rotate(-90deg);
+  width: auto;
 }
 
 .blue{
     background-color: lightblue;
     text-align: right;
+      font-weight: 700;
+    
 }
 
 .green{
     background-color: greenyellow;
     text-align: right;
+      font-weight: 700;
 }
 
 .wheat{
     background-color: wheat;
     text-align: center;
     vertical-align: middle;
+    
 }
 
 .yellow{
     background-color: yellow;
     text-align: left;
+      font-weight: 700;
 }
 
-.vertical{
-   transform: rotate(-90deg);
-    background-color: none;
-    text-align: center;
-    vertical-align: center;
-    width: 10px;
-    height: 20px;
+.white{
+     font-size: 10px;
+    background-color: white;
+    font-weight: 700;
+   width: 53px;
+}
+
+.second table,tr td{
+    width: 85px;
+  border: 1px solid black;
 }
