@@ -5,6 +5,7 @@
 }
 
 .first span{
+    height: 60px;
      min-width: 27%;
 }
 
@@ -12,7 +13,7 @@
     min-width: 23%;
 }
 .first .yellow{
-    min-height: 2px;
+    min-height: 10px;
 }
 
 .third span{
