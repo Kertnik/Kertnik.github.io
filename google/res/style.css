@@ -1,0 +1,26 @@
+.head{
+    width: 150px;
+margin-left:auto ;
+}
+
+.search{
+    
+    height: 200px;
+    margin-top: 580px;
+    width: 500px;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.plitka{
+    width: 500px;
+margin: auto;
+}
+input{
+    width: 300px;
+}
+.plitka img{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
