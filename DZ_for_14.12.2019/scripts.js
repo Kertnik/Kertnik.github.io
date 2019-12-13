@@ -1,0 +1,26 @@
+let a = 145;
+let b = 5;
+console.log("a=" + a);
+console.log("b=" + b);
+console.log("a+b=" + (a + b));
+console.log("a-b=" + (a - b));
+console.log("a*b=" + (a * b));
+console.log("a/b=" + (a / b));
+console.log("Quest2");
+
+let x = 6;
+let y = 15;
+let z = 4;
+console.log("x=" + x);
+console.log("y=" + y);
+console.log("z=" + z);
+x += y - x++ * z;
+console.log("x += y - x++ * z=" + x);
+z = --x - y * 5;
+console.log("z = --x - y * 5=" + z);
+y /= x + 5 % z;
+console.log("y /= x + 5 % z=" + y);
+z = x++ + y * 5;
+console.log("z = x++ + y * 5" + z);
+x = y - x++ * z;
+console.log("x = y - x++ * z" + x);
