@@ -1,6 +1,6 @@
 let a = 145;
 let b = 5;
-document.write("<br> Quest1 <br>");
+document.write("Quest1 <br>");
 document.write("a=" + a + "<br>");
 document.write("b=" + b + "<br>");
 document.write("a+b=" + (a + b) + "<br>");
