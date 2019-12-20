@@ -10,10 +10,10 @@
 
 for (let i = 2; i <= 20; i++) {
     if (i * 20.4 != Math.round(i * 20.4)) {
-        document.querySelector(".task2 .answer").innerHTML += `${i}×20,4=${(i * 20.4).toFixed(1)}<br>`;
+        document.querySelector(".task2 .answer").innerHTML += `${i}×20,4=${(i * 20.4).toFixed(1)}<br>`.replace('.',',');
     }
     else {
-        document.querySelector(".task2 .answer").innerHTML += `${i}×20,4=${(i * 20.4)}<br>`;
+        document.querySelector(".task2 .answer").innerHTML += `${i}×20,4=${(i * 20.4)}<br>`.replace('.', ',');
     }
 }
 
