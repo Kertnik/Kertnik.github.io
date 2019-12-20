@@ -10,7 +10,7 @@
 
 for (let i = 2; i <= 20; i++) {
     if (i * 20.4 != Math.round(i * 20.4)) {
-        document.querySelector(".task2 .answer").innerHTML += `${i}×20,4=${(i * 20.4).toFixed(1)}<br>`.replace('.',',');
+        document.querySelector(".task2 .answer").innerHTML += `${i}×20,4=${(i * 20.4).toFixed(1)}<br>`.replace('.', ',');
     }
     else {
         document.querySelector(".task2 .answer").innerHTML += `${i}×20,4=${(i * 20.4)}<br>`.replace('.', ',');
@@ -41,10 +41,17 @@ function task4() {
     document.querySelector(".task4 .answer").innerHTML = "";
     let a = +document.querySelector(".task4 .input1").value;
     let count = 0, sum = 0;
+    if (document.querySelector(".task4 .input1").value != `${a}`) {
+        alert("Слишком большое число");
+        document.querySelector(".task4 .input1").value="";
+        return;
+    }
     while (a > 0) {
         count++;
-        sum += a % 10;
-        a = Math.round(a / 10);
+        let a_c = a % 10;
+        a = (a - a_c) / 10;
+        sum += a_c;
+
     }
     document.querySelector(".task4 .answer").innerHTML += `Количество цифр:${count}<br>Сумма:${sum}`;
 }
