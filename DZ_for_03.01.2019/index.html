@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DZ</title>
+    <style>
+        td input {
+            width: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <p id=Out1>Answer I: </p>
+    <p id=Out2>Answer II: </p>
+    <p id=Out3>Answer III: </p>
+    <p id=Out4>Answer IV: </p>
+    <p id=Out5>Answer V: </p>
+    <p id=Out6>Answer VI: </p>
+    <p id=Out7>Answer VII: </p>
+    <div id=Quest8>
+
+        <table style="text-align: center;">
+            <thead>
+                <tr>
+                    <td>Знак </td>
+                    <td>Шифр</td>
+                </tr>
+
+            </thead>
+            <tr>
+                <td><input id="symb1" maxlength=1 type="text"></td>
+                <td><input id="cyph1" maxlength=1 type="text"></td>
+            </tr>
+            <tr>
+                <td><input id="symb2" maxlength=1 type="text"></td>
+                <td><input id="cyph2" maxlength=1 type="text"></td>
+            </tr>
+            <tr>
+                <td><input id="symb3" maxlength=1 type="text"></td>
+                <td><input id="cyph3" maxlength=1 type="text"></td>
+            </tr>
+            <tr>
+                <td><input id="symb4" maxlength=1 type="text"></td>
+                <td><input id="cyph4" maxlength=1 type="text"></td>
+            </tr>
+            <tr>
+                <td><input id="symb5" maxlength=1 type="text"></td>
+                <td><input id="cyph5" maxlength=1 type="text"></td>
+            </tr>
+            <tr>
+                <td><input id="symb6" maxlength=1 type="text"></td>
+                <td><input id="cyph6" maxlength=1 type="text"></td>
+            </tr>
+            <tr>
+                <td><input id="symb7" maxlength=1 type="text"></td>
+                <td><input id="cyph7" maxlength=1 type="text"></td>
+            </tr>
+            <tr>
+                <td><input id="symb8" maxlength=1 type="text"></td>
+                <td><input id="cyph8" maxlength=1 type="text"></td>
+            </tr>
+            <tr>
+                <td><input id="symb9" maxlength=1 type="text"></td>
+                <td><input id="cyph9" maxlength=1 type="text"></td>
+            </tr>
+            <tr>
+                <td><input id="symb10" maxlength=1 type="text"></td>
+                <td><input id="cyph10" maxlength=1 type="text"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p>Другие</p>
+                </td>
+                <td><input id="cyph11" maxlength=1 type="text"></td>
+            </tr>
+        </table>
+        <h3>Текст для шифровки</h3>
+        <textarea id="inputText"   cols="30" rows="10"></textarea><br>
+        <button onclick="Quest8(document.getElementById('Out8'))">Send</button>
+        <h3 id="Answer8"></h3>
+        
+        <p id='Out8'></p>
+
+    </div>
+    <script src="script.js" onload="Enter()"></script>
+
+</body>
+
+</html>
