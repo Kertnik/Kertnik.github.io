@@ -39,5 +39,6 @@ while (confirm("Сыграем в игру?")) {
     }
 
 }
-window.close();
+alert("Вы будете перенаправлены на стартовую страницу")
+document.location.replace("../index.html");
 
