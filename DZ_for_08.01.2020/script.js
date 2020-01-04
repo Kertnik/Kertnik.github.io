@@ -9,7 +9,7 @@ while (confirm("Сыграем в игру?")) {
     }
     while (exceptions.length < 6 && vivod.includes("_")) {
         let char = prompt("Угадай букву").toUpperCase();
-        if (char.length > 1 & (char != "" | char != " ")) {
+        if (char.length > 1 & (char != "" | char != " " | char != undefined)) {
             alert("Неверный ввод")
         }
         else {
