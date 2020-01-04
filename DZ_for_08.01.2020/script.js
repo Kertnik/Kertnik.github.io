@@ -8,12 +8,17 @@ while (confirm("Сыграем в игру?")) {
         vivod[i] = "_";
     }
     while (exceptions.length < 6 && vivod.includes("_")) {
-        let char = prompt("Угадай букву");
-        if (char.length > 1 & (char != "" | char != " " | char != undefined)) {
+        try {
+            let char = prompt("Угадай букву").toUpperCase();
+        }
+        catch{
+            alert("Неверный ввод");
+            char = " ";
+        }
+        if (char.length > 1 & (char != "" | char != " ")) {
             alert("Неверный ввод")
         }
         else {
-            char = char.toUpperCase();
             if (word.includes(char)) {
                 for (let i = 0; i < word.length; i++) {
                     if (word[i] == char) {
@@ -31,6 +36,7 @@ while (confirm("Сыграем в игру?")) {
         }
         alert(`${vivod.join(" ")}\n Неправильные варианты :${exceptions.join()}`);
         char = "";
+
     }
     if (vivod.includes("_")) {
         alert(`Вы проиграли, было загадано слово:\"${word}\"`);
@@ -39,7 +45,8 @@ while (confirm("Сыграем в игру?")) {
         alert(`Вы угадали, ваше слово:\"${word}\"`);
     }
 
+
 }
-alert("Вы будете перенаправлены на стартовую страницу")
+alert("Вы будете перенаправлены на стартовую страницу");
 window.location.href("../index.html");
 
