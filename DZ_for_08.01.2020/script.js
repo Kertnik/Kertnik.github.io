@@ -8,11 +8,12 @@ while (confirm("Сыграем в игру?")) {
         vivod[i] = "_";
     }
     while (exceptions.length < 6 && vivod.includes("_")) {
-        let char = prompt("Угадай букву").toUpperCase();
+        let char = prompt("Угадай букву");
         if (char.length > 1 & (char != "" | char != " " | char != undefined)) {
             alert("Неверный ввод")
         }
         else {
+            char = char.toUpperCase();
             if (word.includes(char)) {
                 for (let i = 0; i < word.length; i++) {
                     if (word[i] == char) {
