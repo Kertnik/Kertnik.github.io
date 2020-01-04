@@ -13,9 +13,10 @@ while (confirm("Сыграем в игру?")) {
         }
         catch{
             alert("Неверный ввод");
-            char = " ";
+            break;
         }
-        if (char.length > 1 & (char != "" | char != " ")) {
+
+        if (char.length > 1 && (char != "" | char != " ")) {
             alert("Неверный ввод")
         }
         else {
@@ -33,20 +34,20 @@ while (confirm("Сыграем в игру?")) {
                 exceptions[exceptions.length] = " " + char;
                 alert(`Осталось ${6 - exceptions.length} попыток`);
             }
+
+            alert(`${vivod.join(" ")}\nНеправильные варианты :${exceptions.join()}`);
+            char = "";
+
         }
-        alert(`${vivod.join(" ")}\n Неправильные варианты :${exceptions.join()}`);
-        char = "";
-
+        if (vivod.includes("_")) {
+            alert(`Вы проиграли, было загадано слово:\"${word}\"`);
+        }
+        else {
+            alert(`Вы угадали, ваше слово:\"${word}\"`);
+        }
     }
-    if (vivod.includes("_")) {
-        alert(`Вы проиграли, было загадано слово:\"${word}\"`);
-    }
-    else {
-        alert(`Вы угадали, ваше слово:\"${word}\"`);
-    }
-
 
 }
 alert("Вы будете перенаправлены на стартовую страницу");
-window.location.href("../index.html");
+window.location.href = "../index.html";
 
