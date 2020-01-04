@@ -1,5 +1,5 @@
 let slova = ["воздух", "ребята", "солнце", "память", "вопрос", "тишина", "оружие", "густой", "точный", "мастер"];
-alert("Угадайте мое секретное слово!\n Оно содержит 6 букв,и вы можете угадывать одну букву за раз.Вам предоставляется 6 неправильных угадываний.");
+alert("Угадайте мое секретное слово!\nОно содержит 6 букв,и вы можете угадывать одну букву за раз.Вам предоставляется 6 неправильных угадываний.");
 while (confirm("Сыграем в игру?")) {
     let exceptions = [];
     let slovo = slova[Math.round(Math.random() * 10)].toUpperCase();
@@ -7,7 +7,7 @@ while (confirm("Сыграем в игру?")) {
     for (let i = 0; i < slovo.length; i++) {
         vivod[i] = "_";
     }
-    while (exceptions.length < 6 && !vivod.includes("_")) {
+    while (exceptions.length < 6 && vivod.includes("_")) {
         let char = prompt("Угадай букву").toUpperCase();
         if (char.length > 1) {
             alert("Неверный ввод")
