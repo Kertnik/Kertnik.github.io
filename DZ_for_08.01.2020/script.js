@@ -37,10 +37,11 @@ while (confirm("Сыграем в игру?")) {
             else {
                 alert("А вот и не угадал");
                 exceptions[exceptions.length] = " " + char;
-                alert(`Осталось ${6 - exceptions.length} попыток`);
+
                 if (exceptions.length >= 6) {
                     break;
                 }
+                alert(`Осталось ${6 - exceptions.length} попыток`);
 
             }
 
