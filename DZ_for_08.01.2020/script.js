@@ -1,10 +1,10 @@
-let slova = ["воздух", "ребята", "солнце", "память", "вопрос", "тишина", "оружие", "густой", "точный", "мастер"];
+let words = ["воздух", "ребята", "солнце", "память", "вопрос", "тишина", "оружие", "густой", "точный", "мастер"];
 alert("Угадайте мое секретное слово!\nОно содержит 6 букв,и вы можете угадывать одну букву за раз.Вам предоставляется 6 неправильных угадываний.");
 while (confirm("Сыграем в игру?")) {
     let exceptions = [];
-    let slovo = slova[Math.round(Math.random() * 10)].toUpperCase();
+    let word = words[Math.round(Math.random() * 10)].toUpperCase();
     let vivod = [];
-    for (let i = 0; i < slovo.length; i++) {
+    for (let i = 0; i < word.length; i++) {
         vivod[i] = "_";
     }
     while (exceptions.length < 6 && vivod.includes("_")) {
@@ -13,9 +13,9 @@ while (confirm("Сыграем в игру?")) {
             alert("Неверный ввод")
         }
         else {
-            if (slovo.includes(char)) {
-                for (let i = 0; i < slovo.length; i++) {
-                    if (slovo[i] == char) {
+            if (word.includes(char)) {
+                for (let i = 0; i < word.length; i++) {
+                    if (word[i] == char) {
 
                         vivod[i] = char;
                     }
@@ -32,10 +32,10 @@ while (confirm("Сыграем в игру?")) {
         char = "";
     }
     if (vivod.includes("_")) {
-        alert(`Вы проиграли, было загадано слово:\"${slovo}\"`);
+        alert(`Вы проиграли, было загадано слово:\"${word}\"`);
     }
     else {
-        alert(`Вы угадали, ваше слово:\"${slovo}\"`);
+        alert(`Вы угадали, ваше слово:\"${word}\"`);
     }
 
 }
