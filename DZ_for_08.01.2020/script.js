@@ -3,11 +3,11 @@ alert("Угадайте мое секретное слово!\nОно содер
 while (confirm("Сыграем в игру?")) {
     let exceptions = [];
     let word = words[Math.round(Math.random() * 10)].toUpperCase();
-    let vivod = [];
+    let output = [];
     for (let i = 0; i < word.length; i++) {
-        vivod[i] = "_";
+        output[i] = "_";
     }
-    while (exceptions.length < 6 && vivod.includes("_")) {
+    while (exceptions.length < 6 && output.includes("_")) {
         let char
         try {
             char = prompt("Угадай букву").toUpperCase();
@@ -17,7 +17,7 @@ while (confirm("Сыграем в игру?")) {
             break;
         }
 
-        if (char.length == 1 && (char != "" | char != " ")) {
+        if (char.length != 1 | char == "" | char == " ") {
             alert("Неверный ввод")
         }
         else {
@@ -25,12 +25,12 @@ while (confirm("Сыграем в игру?")) {
                 for (let i = 0; i < word.length; i++) {
                     if (word[i] == char) {
 
-                        vivod[i] = char;
+                        output[i] = char;
                     }
                 }
 
                 alert("Угадал");
-                if (!vivod.includes("_")) {
+                if (!output.includes("_")) {
                     break;
                 }
             }
@@ -41,15 +41,16 @@ while (confirm("Сыграем в игру?")) {
                 if (exceptions.length >= 6) {
                     break;
                 }
+
             }
 
-            alert(`${vivod.join(" ")}\nНеправильные варианты :${exceptions.join()}`);
+            alert(`${output.join(" ")}\nНеправильные варианты :${exceptions.join()}`);
             char = "";
 
 
         }
     }
-    if (vivod.includes("_")) {
+    if (output.includes("_")) {
         alert(`Вы проиграли, было загадано слово:\"${word}\"`);
     }
     else {
