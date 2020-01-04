@@ -40,5 +40,5 @@ while (confirm("Сыграем в игру?")) {
 
 }
 alert("Вы будете перенаправлены на стартовую страницу")
-document.location.replace("../index.html");
+window.location.href("../index.html");
 
