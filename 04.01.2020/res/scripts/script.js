@@ -40,6 +40,7 @@ for (let i = 0; i < arr.length; i++) {
     }
 }
 console.log("Пузырчатая сортировка " + arr);
+
 function printMsg(from, text = "undefined text") {
     alert(from + " say:" + text);
 }
